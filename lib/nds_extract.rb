@@ -9,10 +9,9 @@ def gross_for_director(director_data)
     while i < nds.size do
     director = nds[i]
     result[director[:name]] = gross_for_director(director)
-
-
-
-
+    i += 1 
+  end 
+  result
 end
 
 # Write a method that, given an NDS creates a new Hash

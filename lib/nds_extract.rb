@@ -7,6 +7,8 @@ def gross_for_director(director_data)
   result = {}
   i = 0 
     while i < nds.size do
+    director = nds[i]
+
 
 
 end

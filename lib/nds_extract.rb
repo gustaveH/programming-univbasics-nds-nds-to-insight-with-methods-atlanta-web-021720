@@ -8,6 +8,8 @@ def gross_for_director(director_data)
   i = 0 
     while i < nds.size do
     director = nds[i]
+    result[director[:name]] = gross_for_director(director)
+
 
 
 
